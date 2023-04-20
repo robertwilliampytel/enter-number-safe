@@ -36,6 +36,7 @@ int enter_number(void)
   
   
   free(buffer);
+  buffer = NULL;
   
   
   return number;
